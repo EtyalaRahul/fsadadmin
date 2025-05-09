@@ -10,6 +10,8 @@ import Cosmetics from './Components/Cosmetics';
 import DailyBasket from './Components/DailyBasket';
 import Decoratives from './Components/Decoratives';
 import Electronics from './Components/Electronics';
+import Login from './Components/Login';
+import Signup from './Components/Signup';
 
 function App() {
   // States for different product categories
@@ -74,6 +76,14 @@ function App() {
         <Route
           path="/electronics"
           element={<Electronics products={electronicsProducts} />}
+        /> 
+        <Route
+          path="/login"
+          element={<Login />}
+        />
+        <Route
+          path="/signup"
+          element={<Signup />}
         />
       </Routes>
     </Router>
