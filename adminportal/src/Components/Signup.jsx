@@ -64,6 +64,7 @@ const Signup = () => {
                 </div>
 
                 <button type="submit">Signup</button>
+                <p>Already have an account? <a href='http://localhost:5173/login'>Login</a></p>
             </form>
         </div>
     );
